@@ -5,6 +5,7 @@ init:
     $ default player_name = "New Employee"
     $ default player_day = "Day"
     $ default player_time = "Time"
+    $ default player_contact = "Emergency Contact"
 
 label start:
     $ save_name = "BOOT UP"
@@ -43,5 +44,62 @@ label question_3:
 
 label question_4:
     $ save_name = "QUESTION 4"
+    "Question 4."
+    "What are the best times to reach you?"
+    $ player_time = renpy.input("Enter which times you are available.")
+
+label question_5:
+    $ save_name = "QUESTION 5"
+    "Question 5."
+    "Have you had any previous employers?"
+    menu:
+        "municipal government":
+            pass
+        "private research":
+            pass
+        "academic institution":
+            pass
+        "Royce Technologies":
+            "..."
+        "none of the above":
+            pass
+
+label question_6:
+    $ save_name = "QUESTION 6"
+    "Question 6."
+    "Do you object to working in a facility that predates its records?"
+    menu:
+        "yes":
+            pass
+        "no":
+            pass
+        "unsure":
+            pass
+
+label question_7:
+    $ save_name = "QUESTION 7"
+    "Question 7."
+    "If something happened to you, who would be first to notice your absence?"
+    $ player_contact = "Enter the name of your emergency contact."
+
+label question_8:
+    $ save_name = "QUESTION 8"
+    "Question 8."
+    "How long would it take them to notice?"
+    menu:
+        "immediately":
+            pass
+        "within a day":
+            pass
+        "within a week":
+            pass
+        "longer":
+            pass
+    
+label question_9:
+    $ save_name = "QUE$T1ON 9"
+    "Question 9."
+    "Two coworkers submit accounts of the same event. The accounts contradict each other. Neither coworker is known to be reliable."
+    ""
     
 
