@@ -100,6 +100,83 @@ label question_9:
     $ save_name = "QUE$T1ON 9"
     "Question 9."
     "Two coworkers submit accounts of the same event. The accounts contradict each other. Neither coworker is known to be reliable."
-    ""
+    menu:
+        "determine which account is correct":
+            pass
+        "interview both again":
+            pass
+        "file both accounts":
+            pass
+        "defer to the senior coworker":
+            pass
+
+label question_10:
+    $ save_name = "QUESTION 10"
+    "Question 10."
+    "An object in your care is requested by the person it was taken from. The request is not authorized."
+    menu:
+        "deny the request":
+            pass
+        "escalate it":
+            pass
+        "return the object":
+            pass
+        "ask why it was taken":
+            pass
+
+label question_11:
+    $ save_name = "Q█EST█ON █1"
+    $ config.window_title = "█████ ████████████"
+    "Question 11."
+    # royce family photo
+    "Are the people in this photo familiar?"
+    menu:
+        "yes":
+            pass
+        "no":
+            pass
+        "unsure":
+            pass
+        "I was not shown a photo"
+
+label question_12:
+    $ save_name = "QUESTION 12"
+    "Question 12."
+    "You are observing something. Continued observation will change it."
+    menu:
+        "continue observing":
+            pass
+        "stop":
+            pass
+        "record what is changing":
+            pass
+        "predict what it is changing into":
+            pass
+
+label question_13:
+    $ save_name = "████████ ██"
+    "Question 13."
+    "Has anyone ever wronged you?"
+    menu:
+        "yes":
+            pass
+        "no":
+            pass
+
+label question_14:
+    "If justice were impossible, would revenge be enough?"
+    menu:
+        "yes":
+            # breathing sounds play as you hover over this option
+            pass
+        "no":
+            pass
+
+label question_15:
+
+
+
+
+    
     
 
