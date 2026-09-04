@@ -154,8 +154,22 @@ label question_12:
             pass
 
 label question_13:
-    $ save_name = "████████ ██"
     "Question 13."
+    "A superior instructs you to discard a witness report."
+    menu:
+        "discard it":
+            pass
+        "discard it and note the instruction":
+            pass
+        "refuse":
+            pass
+        "keep a copy":
+            pass
+        
+
+label question_14:
+    $ save_name = "████████ ██"
+    "Question 14."
     "Has anyone ever wronged you?"
     menu:
         "yes":
@@ -163,7 +177,7 @@ label question_13:
         "no":
             pass
 
-label question_14:
+label question_15:
     "If justice were impossible, would revenge be enough?"
     menu:
         "yes":
@@ -172,7 +186,59 @@ label question_14:
         "no":
             pass
 
-label question_15:
+label question_16:
+    "Have you seen a god?"
+    menu:
+        "yes":
+            pass
+        "no":
+            pass
+        "unsure":
+            pass
+
+label question_17:
+    "Would you like to?"
+    menu:
+        "yes":
+            pass
+        "no":
+            pass
+        # The god is shown anyway, a hazy, glowing, low-poly model in a black void. The image is blurred, and the player can't entirely see it. The droning background noise cuts out just for this moment. 
+
+label question_18:
+    "This form has been open for 11 minutes."
+    "Is that longer than you intented?"
+    menu:
+        "yes":
+            pass
+        "no":
+            pass
+        "I was not counting"
+
+label question_19:
+    "Is this the first time you have completed this assessment?"
+    menu:
+        "yes":
+            pass
+        "no":
+            pass
+        "unsure":
+            pass
+
+label question_20:
+    $ config.window_title = "COUNCIL"
+    "How long has the council been aware of you?"
+    menu:
+        "since I applied":
+            pass
+        "longer":
+            pass
+        "I would not know":
+            pass
+
+label question_21:
+    "Question [x] took you longer than the others. What caused that?"
+    menu: 
 
 
 
